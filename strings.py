@@ -1,8 +1,8 @@
 from pyrogram.types import InlineKeyboardButton
 from creds import cred
 
-welcome = '`Give me the subtitle file you want to translate..`'
-about = '`Bot`            : [subtransbot](t.me/subtransbot)\n`Creator :` [agentnova](t.me/agentnova)\n`Language:` [' \
+welcome = '`Give me the subtitle file you want to translate.. My Owner is @cc_chat1`'
+about = '`Bot`            : [subtransbot](t.me/cinema_cmpny)\n`Creator :` [Fazil vk](t.me/cc_chat1)\n`Language:` [' \
         'Python3](https://python.org)\n`Library :` [Pyrogram](https://docs.pyrogram.org/) \n`Server  :` [Heroku](' \
         'https://herokuapp.com/) '
 help = '**Steps to follow**\n\n`This is a subtitle translator bot`\n**1.** `Send me the subtitle file inorder to ' \
