@@ -1,7 +1,7 @@
 {
-  "name": "Subtrans bot",
+  "name": "FazSub Bot",
   "description": "A telegram bot which translates subtitle file to another language",
-  "repository": "https://github.com/agentnova/SubtitleTranslator-Bot",
+  "repository": "https://github.com/fazilvk786/fazsubbot",
   "logo": "https://raw.githubusercontent.com/agentnova/SubtitleTranslator-Bot/main/logo.jpg",
   "keywords": ["Subtitle","telegram","telegram bot","bot","pyrogram","subtitle translator","translator","python"],
   "env": {
