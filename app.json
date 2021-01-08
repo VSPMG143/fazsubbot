@@ -22,7 +22,7 @@
       "value": ""
     },
     "DB_URL": {
-      "description": "Your DATABASE url from firebase.google.com",
+      "description": "Your DB url from firebase.google.com",
       "value": ""
     }
   },
