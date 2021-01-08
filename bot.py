@@ -35,7 +35,7 @@ def abouts(client, message):
     client.send_message(chat_id=message.chat.id, reply_to_message_id=message.message_id,
                         text=about,
                         disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Give Feedback", url="t.me/agentnova")]]))
+            [InlineKeyboardButton("Give Feedback", url="t.me/cc_chat1")]]))
 
 
 @app.on_message(filters.command(["log"]))
@@ -53,7 +53,7 @@ def texts(client, message):
 
 @app.on_message(filters.document)
 def doc(client, message):
-    res = message.reply_text("**Analysing file...**", True)
+    res = message.reply_text("**📊 Analysing file...**", True)
     mimmetype = message.document.mime_type
     if mimmetype in mmtypes:
         dts = dt(message.chat.id)
@@ -83,7 +83,7 @@ def data(client, callback_query):
         callback_query.message.edit(
             text=about,
             disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Give Feedback", url="t.me/agentnova")]]))
+                [InlineKeyboardButton("Give Feedback", url="t.me/cc_chat1")]]))
     elif rslt == "close":
         callback_query.message.delete()
     elif rslt == "help":
