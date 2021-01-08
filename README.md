@@ -18,15 +18,15 @@ Mozilla Public License for more details.
 
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/agentnova/SubtitleTranslator-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fazilvk786/fazsubbot)
 
 
 #### The Legacy Way
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/agentnova/SubtitleTranslator-Bot
+git clone https://github.com/fazilvk786/fazsubbot
 
-cd SubtitleTranslator-Bot
+cd fazsubbot
 
 python3 -m venv venv
 
